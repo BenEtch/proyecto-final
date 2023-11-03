@@ -23,7 +23,7 @@
     .navbar ul{
         background-color: #C18B50;
         width: 65%;
-        height: calc(25vh - 80px);
+        height: fit-content;
         position: absolute;
         top: 80px;
         right: 0;
@@ -33,6 +33,7 @@
         display: none;
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 20px 20p;
+        padding: 10px;
     }
 
     .navbar li{
@@ -78,5 +79,14 @@
             width: 55%;
             text-align: center;
         }
+
+        .footer-bottom{
+            text-align: center;
+            font-size: 40px;
+        }
+
+}
+
+@media (max-width: 1024px){
 
 }

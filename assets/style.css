@@ -30,6 +30,7 @@ body{
 
 .logo{
     width: fit-content;
+    padding-right: 20px;
     font-weight: 400;
     font-size: 36px;
 }
@@ -118,6 +119,7 @@ span{
         width: 100%;
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         justify-content: flex-start;
         padding: 10px 0 10px 10px;
         gap: 10px;
