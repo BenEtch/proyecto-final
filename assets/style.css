@@ -5,6 +5,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+    flex-wrap: nowrap;
 }
 
 body{

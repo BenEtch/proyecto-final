@@ -9,6 +9,10 @@
         left: 0;
     }
 
+    .header .logo i{
+        display: none;
+    }
+
     .navbar ul{
         background-color: #C18B50;
         width: 65%;
