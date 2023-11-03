@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E6E2DD;
+}
+
+
+/* HEADER */
+
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    background-color: #043b73;
+    position: fixed;
+}
+
+.logo{
+    width: fit-content;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+span{
+    background: rgb(93,162,233);
+    background: linear-gradient(90deg, rgba(93,162,233,1) 50%, rgba(254,254,254,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.navbar{
+    display: flex;
+    gap: 50px;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar i{
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu{
+    display: none;
+}
+
+.navbar-list a{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* /HEADER */
+
+/* MAIN */
+
+.hero-banner img{
+    width: 100%;
+}
+
+.hero-info{
+    margin: 80px 0px;
+    gap: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+    .hero-info h2{
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+.cards-section,
+.packs-section{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card,
+.pack{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: white;    
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 20px 20px 0 0;
+}
+    .card img,
+    .pack img{
+        width: 450px;
+        height: 300px;
+        border-radius: 20px 20px 0 0;
+    }
+    .card-content-top,
+    .pack-content-top{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px 0 10px 10px;
+        gap: 10px;
+        border-bottom: 0.3px solid black;
+    }
+    .card-content-bottom,
+    .pack-content-bottom{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px 0 0 10px;
+        gap: 10px;
+    }
+    .card h2,
+    .pack h2{
+        color: black;
+    }
+    .card-round-trip,
+    .pack-round-trip
+    {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #CECCCA;
+        width: fit-content;
+    }
+
+
+.cards-h1{
+    text-align: center;
+    margin-bottom: 20px;
+}    
+
+.cards-container,
+.packs-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.packs-section{
+    margin-top: 100px;
+}
+
+.packs-h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.about-us{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .about-us img{
+        width: 70%;  
+        height: 1000px;
+        border-radius: 10px;
+    }
+
+    .golden-travels-container{
+        background-color: #043b73;
+        width: 70%;
+        height: fit-content;
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 40px 0 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-us h2{
+        font-size: 70px;
+        font-weight: 400;
+        background: rgb(93,162,233);
+        background: linear-gradient(90deg, rgba(93,162,233,1) 50%, rgba(254,254,254,1) 100%);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .about-us h3{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .about-us p{
+        font-size: 30px;
+        width: 70%;
+        margin: auto auto 20px auto;
+    }
+
+    /* /MAIN */
+
+    /* FOOTER */
+
+    .footer{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-top{
+        background-color: #043b73;
+        border-radius: 10px;
+        width: 85%;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        padding: 15px;
+    }
+
+    .footer-info-container h2{
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .footer-info-container h3{
+        padding: 5px;
+        font-size: 20px;
+    }
+    
+    .footer-info-container h2,
+    .footer-info-container h3{
+        color: #CECCCA;
+        font-weight: 200;
+    }
+
+    .footer-bottom{
+        margin-top: 10px;
+        width: 85%;
+        text-align: start;
+        justify-content: space-between;
+        background-color: #E6E2DD;
+        font-size: 35px;
+    }
+
