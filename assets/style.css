@@ -17,6 +17,7 @@ body{
 /* HEADER */
 
 .header{
+    top: 0;
     height: 80px;
     width: 100%;
     display: flex;
@@ -27,6 +28,17 @@ body{
     background-color: #043b73;
     position: fixed;
 }
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+    .user-icon{
+        font-size: 30px;
+    }
 
 .logo{
     width: fit-content;
@@ -69,7 +81,7 @@ span{
 /* /HEADER */
 
 /* MAIN */
-
+    /* INDEX */
 .hero-banner img{
     width: 100%;
 }
@@ -232,11 +244,50 @@ span{
     .contact-container a{
         width: fit-content;
     }
+        /* /INDEX* /
+        /* ABOUT */
 
+           .section-about-top{
+            margin-top: 100px;
+            text-align: center;
+            font-size: 40px;
+           }
+
+           .about-info-container-top{
+            margin: auto;
+            width: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+           }
+                .about-info-p,
+                .about-info-p-bot{
+                    width: 50%;
+                    margin: auto;
+                }
+                .about-info-img{
+                    width: 50%;
+                    border-radius: 15px;
+                }
+
+            .about-info-container-bot{
+                margin: 30px auto auto auto;
+                width: 70%;
+            }
+
+        .section-about-bot{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 40px;
+            display: flex;
+            gap: 30px;
+           }
+        /* /ABOUT */
     /* /MAIN */
 
     /* FOOTER */
-
+           /* INDEX */
     .footer{
         padding: 20px;
         display: flex;
@@ -280,4 +331,23 @@ span{
         background-color: #E6E2DD;
         font-size: 35px;
     }
-
+    /* /INDEX */
+    /* ABOUT */
+        .footer-about{
+            margin: 100px 0 50px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .footer-about-top-title-container{
+                background-color: #043b73;
+                padding: 10px;
+                width: fit-content;
+                border-radius: 15px;
+            }
+            .footer-about-top-title-container h2{
+                color: rgb(93,162,233);
+            }
+    /* /ABOUT */
+/* FOOTER */

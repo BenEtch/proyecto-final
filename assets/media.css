@@ -7,8 +7,13 @@
     .header{
         top: 0;
         left: 0;
+        padding-left: 65px;
+        padding-right: 15px;
     }
 
+    .nav-right{
+        gap: 32px;
+    }
     
 .logo{
     width: fit-content;
@@ -34,6 +39,7 @@
         box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 20px 20p;
         padding: 10px;
+        transition: margin-right 4s 1s;
     }
 
     .navbar li{
@@ -87,6 +93,12 @@
 
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1500px){
+    .about-info-img{
+        display: none;
+    }
 
+    .about-info-p-bot{
+        width: fit-content;
+    }
 }
