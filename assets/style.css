@@ -259,9 +259,9 @@ span{
         /* ABOUT */
 
            .section-about-top{
-            margin-top: 100px;
+            margin-top: 150px;
             text-align: center;
-            font-size: 40px;
+            font-size: 30px;
            }
 
            .about-info-container-top{
@@ -297,7 +297,7 @@ span{
         .section-about-bot{
             margin-top: 20px;
             text-align: center;
-            font-size: 40px;
+            font-size: 30px;
             display: flex;
             gap: 30px;
            }
