@@ -15,7 +15,7 @@ body{
 
 
 /* HEADER */
-
+    /* INDEX */
 .header{
     top: 0;
     height: 80px;
@@ -77,7 +77,18 @@ span{
     font-size: 25px;
     font-weight: 400;
 }
+    /* /INDEX */
+    /* ABOUT */
 
+    .about-title{
+        background: rgb(93,162,233);
+        background: linear-gradient(90deg, rgba(93,162,233,1) 50%, rgba(254,254,254,1) 100%);
+        -webkit-background-clip: text;
+        color: transparent; 
+        font-weight: 400;
+    }
+
+    /* /ABOUT */
 /* /HEADER */
 
 /* MAIN */
@@ -276,6 +287,13 @@ span{
                 width: 70%;
             }
 
+            .cv-btn{
+                background-color: #043b73;
+                padding: 10px;
+                border-radius: 20px;
+                color: rgb(93,162,233);
+            }
+
         .section-about-bot{
             margin-top: 20px;
             text-align: center;
@@ -284,6 +302,44 @@ span{
             gap: 30px;
            }
         /* /ABOUT */
+        /* USER */
+           .registration-top{
+            margin-top: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+
+           .registration-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 700px;
+            width: 40%;
+            min-width: 310px;
+            gap: 20px;
+            background-color: #043b73;
+            padding: 30px;
+            border-radius: 15px;
+           }
+
+            .input{
+                height: 50px;
+                width: 100%;
+            }
+
+            .input-btn{
+                width: fit-content;
+                padding: 5px;
+                border-radius: 10px;
+            }
+
+            .user-a{
+                color:rgb(93,162,233);
+            }
+           
+        /* /USER */
     /* /MAIN */
 
     /* FOOTER */
