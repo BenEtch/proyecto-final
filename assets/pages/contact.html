@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Travels - Iniciar Sesión</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="../../assets/style.css">
-    <link rel="stylesheet" href="../../assets/media.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../media.css">
     <link rel="icon" type="image/jpg" href="./assets/img/plane-departure-solid (1).svg"/>
+    <title>Golden Travels - Contacto</title>
 </head>
 <body>
     <header class="header">
@@ -30,17 +30,24 @@
             <a class="user-icon" href="../pages/user_login.html"><i class="fa-solid fa-user"></i></a>
         </div>
     </header>
-    <main class="main-user">
-        <section class="registration-top">
-            <div class="registration-container">
-                <h2>Iniciar sesión</h2>
-                <input class="input" type="email" name="mail" id="mail" placeholder="Ingrese su correo">
-                <input class="input" type="password" name="contraseña" id="contraseña" placeholder="Ingrese una contraseña">
-                <input class="input-btn" type="submit" value="Iniciar sesión">
-                <a class="user-a" href="./user.html">No tengo una cuenta</a>
-            </div>
-        </section>
-    </main>
+    <main class="main-contact">
+        <h2 class="title-contact">¿Buscas empleo? Envíanos tu CV</h2>
+        <p class="p-contact">Si estás buscando trabajo, 
+            te sugerimos nos adjuntes tu Curriculum Vitae utilizando el formulario al pie de esta página.
+            El mismo pasará a formar parte de nuestra base de postulantes a la que recurrimos prioritariamente
+            para realizar el reclutamiento y selección de nuestro personal.
+            Es muy importante que no omitas ninguna información que consideres 
+            relevante acerca de tu formación, experiencia, aspiraciones, preferencias, etc.
+            En caso de ser requerido, Golden Travels se comunicará contigo a través del mail que nos indiques.</p>
 
+            <div class="registration-container-contact">
+                <h2>E-mail</h2>
+                <input class="input" type="email" name="mail" id="mail" placeholder="Ingrese su correo">
+                <h2>Hablenos sobre usted</h2>
+                <textarea rows="25" name="message" cols="30" maxlength="1500" maxwidth=""required></textarea>
+                <input class="input-cv-btn" type="submit" value="Ajuntar CV">
+                <input class="input-btn" type="submit" value="Enviar">
+            </div>
+    </main>
 </body>
 </html>
